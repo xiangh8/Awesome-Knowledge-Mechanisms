@@ -1,5 +1,7 @@
-# 大语言模型知识机制研究论文集（Draft）
-# A Survey of Knowledge Mechanisms in Large Language Models
+# Knowledge Mechanisms Across the Lifecycle of Large Language Models（Draft）
+
+大语言模型知识机制研究论文集
+
 近三年hf daily paper上的知识机制相关论文，各类别的voting top 100 paper
 
 ## TODO
