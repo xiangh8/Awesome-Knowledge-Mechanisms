@@ -1,0 +1,96 @@
+cff-version: 1.2.0
+message: "If you use this survey or taxonomy, please cite the canonical OSF record."
+title: "Awesome Knowledge Mechanisms"
+type: dataset
+authors:
+  - family-names: Xiang
+    given-names: Hao
+  - family-names: Huang
+    given-names: Xiusheng
+  - family-names: Tu
+    given-names: Shangqing
+  - family-names: Zheng
+    given-names: Jiasheng
+  - family-names: Xie
+    given-names: Jiakuan
+  - family-names: Hu
+    given-names: Chenhui
+  - family-names: Liu
+    given-names: JiaXiang
+  - family-names: Liang
+    given-names: Qiao
+  - family-names: Cao
+    given-names: Boxi
+  - family-names: Cao
+    given-names: Pengfei
+  - family-names: Hou
+    given-names: Lei
+  - family-names: Lin
+    given-names: Hongyu
+  - family-names: Luan
+    given-names: Jian
+  - family-names: Lu
+    given-names: Yaojie
+  - family-names: Zhao
+    given-names: Jun
+  - family-names: Han
+    given-names: Xianpei
+  - family-names: Li
+    given-names: Juanzi
+  - family-names: Liu
+    given-names: Kang
+  - family-names: Wang
+    given-names: Bin
+  - family-names: Sun
+    given-names: Le
+date-released: "2026-07-22"
+doi: 10.17605/OSF.IO/C8HXB
+url: "https://xiangh8.github.io/Awesome-Knowledge-Mechanisms/"
+repository-code: "https://github.com/xiangh8/Awesome-Knowledge-Mechanisms"
+preferred-citation:
+  type: article
+  title: "Knowledge Mechanisms Across the Lifecycle of Large Language Models"
+  authors:
+    - family-names: Xiang
+      given-names: Hao
+    - family-names: Huang
+      given-names: Xiusheng
+    - family-names: Tu
+      given-names: Shangqing
+    - family-names: Zheng
+      given-names: Jiasheng
+    - family-names: Xie
+      given-names: Jiakuan
+    - family-names: Hu
+      given-names: Chenhui
+    - family-names: Liu
+      given-names: JiaXiang
+    - family-names: Liang
+      given-names: Qiao
+    - family-names: Cao
+      given-names: Boxi
+    - family-names: Cao
+      given-names: Pengfei
+    - family-names: Hou
+      given-names: Lei
+    - family-names: Lin
+      given-names: Hongyu
+    - family-names: Luan
+      given-names: Jian
+    - family-names: Lu
+      given-names: Yaojie
+    - family-names: Zhao
+      given-names: Jun
+    - family-names: Han
+      given-names: Xianpei
+    - family-names: Li
+      given-names: Juanzi
+    - family-names: Liu
+      given-names: Kang
+    - family-names: Wang
+      given-names: Bin
+    - family-names: Sun
+      given-names: Le
+  doi: 10.17605/OSF.IO/C8HXB
+  date-published: "2026-07-22"
+  url: "https://doi.org/10.17605/OSF.IO/C8HXB"
