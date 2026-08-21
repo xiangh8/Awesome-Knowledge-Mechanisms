@@ -25,6 +25,7 @@
     "Liberation Mono", monospace;
 
   --wrap: 68rem;
+  --col: 52rem;
   --radius: 10px;
   --shadow: 0 1px 2px rgba(15, 20, 27, 0.04), 0 8px 24px rgba(15, 20, 27, 0.05);
 
@@ -88,7 +89,7 @@ img { display: block; max-width: 100%; height: auto; }
   padding: 0 1.5rem;
 }
 
-.wrap-narrow { max-width: 50rem; }
+.wrap-narrow { max-width: var(--col); }
 
 .skip-link {
   position: absolute;
@@ -356,7 +357,11 @@ img { display: block; max-width: 100%; height: auto; }
   border-bottom: 1px solid var(--line);
 }
 
-.band-head { max-width: 44rem; margin-bottom: 2.75rem; }
+.band-head {
+  max-width: var(--col);
+  margin-inline: auto;
+  margin-bottom: 2.75rem;
+}
 
 .kicker {
   margin-bottom: 0.7rem;
@@ -373,6 +378,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 .band-lede {
+  max-width: 44rem;
   margin-top: 0.85rem;
   font-family: var(--serif);
   font-size: 1.02rem;
@@ -382,6 +388,8 @@ img { display: block; max-width: 100%; height: auto; }
 /* --------------------------------------------------------------- abstract */
 
 .rail {
+  max-width: var(--col);
+  margin-inline: auto;
   display: grid;
   grid-template-columns: 8rem 1fr;
   gap: 2.5rem;
@@ -446,24 +454,26 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 .figure-hero .figure-plate {
-  max-width: 54rem;
+  max-width: 46rem;
   margin-inline: auto;
   padding: clamp(0.75rem, 1.8vw, 1.25rem);
 }
 
-.figure-hero figcaption { max-width: 54rem; margin-inline: auto; }
+.figure-hero figcaption { max-width: 46rem; margin-inline: auto; }
 
 .stage .figure-plate { max-width: 44rem; }
 
 .stage figcaption { max-width: 44rem; }
 
-.figure-tall .figure-plate { max-width: 56rem; margin-inline: auto; }
+.figure-tall .figure-plate { max-width: var(--col); margin-inline: auto; }
 
-.figure-tall figcaption { max-width: 56rem; margin-inline: auto; }
+.figure-tall figcaption { max-width: var(--col); margin-inline: auto; }
 
 /* ----------------------------------------------------------------- stages */
 
 .stage {
+  max-width: var(--col);
+  margin-inline: auto;
   display: grid;
   grid-template-columns: 5.5rem 1fr;
   gap: 0 2rem;
@@ -599,6 +609,8 @@ img { display: block; max-width: 100%; height: auto; }
 /* --------------------------------------------------------------- citation */
 
 .cite-grid {
+  max-width: var(--col);
+  margin-inline: auto;
   display: grid;
   grid-template-columns: 15rem 1fr;
   gap: 1.5rem;
