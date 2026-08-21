@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A lifecycle-based survey and curated reading list on how large language models acquire, represent, use, evolve, transfer, and evaluate knowledge.">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Knowledge Mechanisms Across the Lifecycle of Large Language Models">
+    <meta property="og:description" content="An open survey and curated reading list covering six stages of the knowledge lifecycle in large language models.">
+    <meta property="og:url" content="https://xiangh8.github.io/Awesome-Knowledge-Mechanisms/">
+    <meta property="og:image" content="https://xiangh8.github.io/Awesome-Knowledge-Mechanisms/assets/knowledge-lifecycle.png">
+    <link rel="canonical" href="https://xiangh8.github.io/Awesome-Knowledge-Mechanisms/">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Knowledge Mechanisms Across the Lifecycle of Large Language Models</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#overview" aria-label="Knowledge Mechanisms home">
+          <span class="brand-mark" aria-hidden="true">KM</span>
+          <span class="brand-name">Knowledge Mechanisms</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#lifecycle">Lifecycle</a>
+          <a href="#stages">Stages</a>
+          <a href="#paper">Paper</a>
+          <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="overview" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <p class="eyebrow">Open survey <span aria-hidden="true">/</span> Draft</p>
+          <h1 id="hero-title">Knowledge Mechanisms Across the Lifecycle of Large Language Models</h1>
+          <p class="hero-lede">A unified view of how large language models acquire, represent, utilize, evolve, transfer, and evaluate knowledge.</p>
+          <div class="hero-actions" role="group" aria-label="Project resources">
+            <a class="button button-primary" href="./downloads/knowledge-mechanisms-across-llm-lifecycle.pdf" download>Download paper</a>
+            <a class="button button-secondary" href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms" target="_blank" rel="noreferrer">Browse project</a>
+          </div>
+          <dl class="project-stats">
+            <div>
+              <dt>Lifecycle stages</dt>
+              <dd>6</dd>
+            </div>
+            <div>
+              <dt>Curated papers</dt>
+              <dd>577</dd>
+            </div>
+            <div>
+              <dt>Literature window</dt>
+              <dd>2024-26</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section lifecycle-section" id="lifecycle" aria-labelledby="lifecycle-title">
+        <div class="section-inner">
+          <div class="section-heading centered">
+            <p class="section-kicker">The organizing idea</p>
+            <h2 id="lifecycle-title">One object, six connected stages</h2>
+            <p>Knowledge is not a static store. It enters a model, takes internal form, drives behavior, changes over time, crosses boundaries, and must be measured throughout.</p>
+          </div>
+          <figure class="lifecycle-figure">
+            <img src="./assets/knowledge-lifecycle.png" width="1980" height="1530" alt="Knowledge lifecycle diagram connecting acquisition, representation, utilization, evolution, transfer, and evaluation.">
+            <figcaption>The knowledge lifecycle of large language models.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section stages-section" id="stages" aria-labelledby="stages-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Survey map</p>
+              <h2 id="stages-title">Follow knowledge through the model</h2>
+            </div>
+            <p>Each stage gathers a focused body of work while preserving the dependencies between training, internal mechanisms, inference-time behavior, intervention, transfer, and measurement.</p>
+          </div>
+
+          <div class="stage-grid">
+            <article class="stage-card stage-acquisition">
+              <div class="stage-meta"><span class="stage-number">01</span><span>100 papers</span></div>
+              <h3>Knowledge Acquisition <span lang="zh">知识获取</span></h3>
+              <p>How knowledge enters a model through training methods, data composition, architecture, and scale.</p>
+              <p class="stage-topics">Training methods / Data / Architecture</p>
+              <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms#lifecycle-taxonomy" target="_blank" rel="noreferrer">View taxonomy</a>
+            </article>
+
+            <article class="stage-card stage-representation">
+              <div class="stage-meta"><span class="stage-number">02</span><span>100 papers</span></div>
+              <h3>Knowledge Representation <span lang="zh">知识表征</span></h3>
+              <p>How facts and concepts are encoded across parameters, activation spaces, and model circuits.</p>
+              <p class="stage-topics">Parametric memory / Activations / Circuits</p>
+              <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms#lifecycle-taxonomy" target="_blank" rel="noreferrer">View taxonomy</a>
+            </article>
+
+            <article class="stage-card stage-utilization">
+              <div class="stage-meta"><span class="stage-number">03</span><span>100 papers</span></div>
+              <h3>Knowledge Utilization <span lang="zh">知识利用</span></h3>
+              <p>How models recall, augment, and reconcile competing sources of knowledge during inference.</p>
+              <p class="stage-topics">Recall / Augmentation / Conflict</p>
+              <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms#lifecycle-taxonomy" target="_blank" rel="noreferrer">View taxonomy</a>
+            </article>
+
+            <article class="stage-card stage-evolution">
+              <div class="stage-meta"><span class="stage-number">04</span><span>77 papers</span></div>
+              <h3>Knowledge Evolution <span lang="zh">知识演化</span></h3>
+              <p>How editing and unlearning update model knowledge, and which side effects follow those changes.</p>
+              <p class="stage-topics">Editing / Unlearning / Side effects</p>
+              <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms#lifecycle-taxonomy" target="_blank" rel="noreferrer">View taxonomy</a>
+            </article>
+
+            <article class="stage-card stage-transfer">
+              <div class="stage-meta"><span class="stage-number">05</span><span>100 papers</span></div>
+              <h3>Knowledge Transfer <span lang="zh">知识迁移</span></h3>
+              <p>How knowledge crosses boundaries between models, modalities, and languages.</p>
+              <p class="stage-topics">Cross-model / Cross-modal / Cross-lingual</p>
+              <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms#lifecycle-taxonomy" target="_blank" rel="noreferrer">View taxonomy</a>
+            </article>
+
+            <article class="stage-card stage-evaluation">
+              <div class="stage-meta"><span class="stage-number">06</span><span>100 papers</span></div>
+              <h3>Knowledge Evaluation <span lang="zh">知识评测</span></h3>
+              <p>How model knowledge is measured for factuality, composition, currency, and calibration.</p>
+              <p class="stage-topics">Factuality / Compositionality / Calibration</p>
+              <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms#lifecycle-taxonomy" target="_blank" rel="noreferrer">View taxonomy</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-inner about-grid">
+          <div>
+            <p class="section-kicker">Why a lifecycle view</p>
+            <h2 id="about-title">From observed behavior to internal mechanism</h2>
+          </div>
+          <div class="about-copy">
+            <p>Research on knowledge in large language models is spread across interpretability, training, retrieval, model editing, unlearning, transfer, and evaluation. Studying these topics separately hides how an intervention at one stage changes outcomes elsewhere.</p>
+            <p>This survey treats knowledge as one underlying object under continuous transformation. The resulting lifecycle makes dependencies visible and helps connect behavioral observations with mechanistic explanations.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="paper-section" id="paper" aria-labelledby="paper-title">
+        <div class="section-inner paper-inner">
+          <div>
+            <p class="paper-label">Survey draft <span aria-hidden="true">/</span> PDF <span aria-hidden="true">/</span> 3.7 MB</p>
+            <h2 id="paper-title">Read the complete survey</h2>
+            <p>Download the current manuscript for the full taxonomy, stage-by-stage analysis, and open research questions.</p>
+          </div>
+          <div class="paper-actions">
+            <a class="button button-light" href="./downloads/knowledge-mechanisms-across-llm-lifecycle.pdf" download>Download PDF</a>
+            <a class="button button-dark-outline" href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>Knowledge Mechanisms Across the Lifecycle of Large Language Models</span>
+        <a href="https://github.com/xiangh8/Awesome-Knowledge-Mechanisms" target="_blank" rel="noreferrer">GitHub repository</a>
+      </div>
+    </footer>
+  </body>
+</html>
